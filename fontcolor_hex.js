@@ -1,39 +1,4 @@
-//loop over array
-//input colorcode from array as font color
-//goal: display colorcode in corresponding color
-//fontcolor()
 const chalk = require("chalk");
-// let ColorScheme = require("color-scheme");
-
-// let scheme = new ColorScheme();
-
-// scheme
-// 	.from_hue(21)
-// 	.scheme("triade")
-// 	.distance(0.4)
-// 	.add_complement(false);
-// // .variation("soft");
-
-// let colors = scheme.colors(); //returns an array of 12
-
-// ArrayLength = array => {
-// 	colors.length > 8 ? (colors.length = 8) : (colors.length = 8);
-// };
-
-// // console.log(colors);
-
-// AddHash = array => {
-// 	// console.log(array);
-// 	for (let i = 0; i < array.length; i++) {
-// 		let color = array[i];
-// 		// console.log(color);
-// 		array[i] = "#" + color;
-// 	}
-// 	// console.log(colors);
-// 	return this;
-// };
-
-// AddHash(colors);
 
 let palettes = [
 	["#3626A7", "#657ED4", "#FF331F", "#B185A7", "#ffffff"],
@@ -50,22 +15,6 @@ let palettes = [
 	["#b7f2b8", "#b4ffed", "#b6cdff", "#ccb4ff", "#ffffff"],
 	["#7f5579", "#7b95c1", "#57aa12", "#ffb3f2", "#ffffff"]
 ];
-
-// AddScheme = array => {
-// 	colors.length > 5 ? (colors.length = 5) : (colors.length = 5);
-// 	for (i = 0; i < 20; i++) {
-// 		var i = palettes[i];
-// 		let palette = "";
-// 		for (let added of i) {
-// 			palette += palettes.push(colors);
-// 		}
-// 	}
-// 	// console.log(palettes);
-
-// 	return this;
-// };
-
-// AddScheme(palettes);
 
 DisplayColor = array => {
 	for (c = 0; c < palettes.length; c++) {
